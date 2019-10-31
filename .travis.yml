@@ -3,11 +3,6 @@ language: go
 go: 
   - 1.11.2
 
-addons:
-  homebrew:
-    packages:
-    - golangci/tap/golangci-lint
-
 install: true
 
 jobs:
@@ -19,8 +14,13 @@ jobs:
     - name: Build and test on Ubuntu Bionic 18.04
       dist: bionic
       script:
+        - mv transaction/txexec/libwasmlib.so.ubuntu transaction/txexec/libwasmlib.so
         - go build ${gobuild_args} ./... && go test ${gobuild_args} ./...
     - name: Code check
       os: osx
+      addons:
+        homebrew:
+          packages:
+          - golangci/tap/golangci-lint
       script:
         - golangci-lint run -D errcheck,structcheck ./...
