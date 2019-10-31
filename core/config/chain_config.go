@@ -7,9 +7,9 @@ package config
 import (
 	"encoding/json"
 	"errors"
-	"github.com/fractal-platform/fractal/core/dbaccessor"
-	"github.com/fractal-platform/fractal/dbwrapper"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/langqing2017/fractal/core/dbaccessor"
+	"github.com/langqing2017/fractal/dbwrapper"
+	"github.com/langqing2017/fractal/utils/log"
 )
 
 var (

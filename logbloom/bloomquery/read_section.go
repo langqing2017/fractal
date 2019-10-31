@@ -1,10 +1,10 @@
 package bloomquery
 
 import (
-	"github.com/fractal-platform/fractal/common/bitutil"
-	"github.com/fractal-platform/fractal/core/dbaccessor"
-	"github.com/fractal-platform/fractal/dbwrapper"
-	"github.com/fractal-platform/fractal/params"
+	"github.com/langqing2017/fractal/common/bitutil"
+	"github.com/langqing2017/fractal/core/dbaccessor"
+	"github.com/langqing2017/fractal/dbwrapper"
+	"github.com/langqing2017/fractal/params"
 )
 
 // bloomServiceThreads is the number of goroutines used globally to service bloombits

@@ -5,7 +5,7 @@
 package config
 
 import (
-	"github.com/fractal-platform/fractal/dbwrapper"
+	"github.com/langqing2017/fractal/dbwrapper"
 	. "github.com/stretchr/testify/assert"
 	"testing"
 )

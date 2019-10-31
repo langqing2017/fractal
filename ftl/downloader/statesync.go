@@ -2,12 +2,12 @@ package downloader
 
 import (
 	"fmt"
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/core/state"
-	"github.com/fractal-platform/fractal/crypto/sha3"
-	"github.com/fractal-platform/fractal/dbwrapper"
-	"github.com/fractal-platform/fractal/trie"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/langqing2017/fractal/common"
+	"github.com/langqing2017/fractal/core/state"
+	"github.com/langqing2017/fractal/crypto/sha3"
+	"github.com/langqing2017/fractal/dbwrapper"
+	"github.com/langqing2017/fractal/trie"
+	"github.com/langqing2017/fractal/utils/log"
 	"hash"
 	"math"
 	"sync"

@@ -11,11 +11,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/common/hexutil"
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/crypto"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/langqing2017/fractal/common"
+	"github.com/langqing2017/fractal/common/hexutil"
+	"github.com/langqing2017/fractal/core/types"
+	"github.com/langqing2017/fractal/crypto"
+	"github.com/langqing2017/fractal/utils/log"
 	"github.com/pborman/uuid"
 )
 

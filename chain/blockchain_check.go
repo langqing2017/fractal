@@ -7,9 +7,9 @@ package chain
 
 import (
 	"errors"
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/core/dbaccessor"
-	"github.com/fractal-platform/fractal/core/types"
+	"github.com/langqing2017/fractal/common"
+	"github.com/langqing2017/fractal/core/dbaccessor"
+	"github.com/langqing2017/fractal/core/types"
 )
 
 func (bc *BlockChain) GetBreakPoint(checkpoint *types.Block, headBlock *types.Block) (*types.Block, *types.Block, error) {

@@ -19,9 +19,9 @@ package trie
 import (
 	"errors"
 	"fmt"
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/dbwrapper"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/langqing2017/fractal/common"
+	"github.com/langqing2017/fractal/dbwrapper"
+	"github.com/langqing2017/fractal/utils/log"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

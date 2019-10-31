@@ -5,8 +5,8 @@
 package api
 
 import (
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/common/hexutil"
+	"github.com/langqing2017/fractal/common"
+	"github.com/langqing2017/fractal/common/hexutil"
 )
 
 // FractalAPI provides an API to access Fractal related information.

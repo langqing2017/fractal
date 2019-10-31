@@ -2,8 +2,8 @@ package sync
 
 import (
 	"errors"
-	"github.com/fractal-platform/fractal/core/config"
-	"github.com/fractal-platform/fractal/ftl/protocol"
+	"github.com/langqing2017/fractal/core/config"
+	"github.com/langqing2017/fractal/ftl/protocol"
 )
 
 func (s *Synchronizer) doFastSync() {

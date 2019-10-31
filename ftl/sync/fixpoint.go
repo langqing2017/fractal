@@ -7,12 +7,12 @@ package sync
 
 import (
 	"errors"
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/core/dbaccessor"
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/ftl/downloader"
-	"github.com/fractal-platform/fractal/ftl/network"
-	"github.com/fractal-platform/fractal/ftl/protocol"
+	"github.com/langqing2017/fractal/common"
+	"github.com/langqing2017/fractal/core/dbaccessor"
+	"github.com/langqing2017/fractal/core/types"
+	"github.com/langqing2017/fractal/ftl/downloader"
+	"github.com/langqing2017/fractal/ftl/network"
+	"github.com/langqing2017/fractal/ftl/protocol"
 	"time"
 )
 

@@ -2,9 +2,9 @@ package downloader
 
 import (
 	"errors"
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/ftl/protocol"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/langqing2017/fractal/common"
+	"github.com/langqing2017/fractal/ftl/protocol"
+	"github.com/langqing2017/fractal/utils/log"
 	"sync"
 	"sync/atomic"
 	"time"

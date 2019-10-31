@@ -19,7 +19,7 @@ package trie
 import (
 	"fmt"
 
-	"github.com/fractal-platform/fractal/common"
+	"github.com/langqing2017/fractal/common"
 )
 
 // MissingNodeError is returned by the trie functions (TryGet, TryUpdate, TryDelete)

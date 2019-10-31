@@ -25,10 +25,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/fractal-platform/fractal/event"
-	"github.com/fractal-platform/fractal/p2p/discover"
-	"github.com/fractal-platform/fractal/rlp"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/langqing2017/fractal/event"
+	"github.com/langqing2017/fractal/p2p/discover"
+	"github.com/langqing2017/fractal/rlp"
+	"github.com/langqing2017/fractal/utils/log"
 	"reflect"
 )
 

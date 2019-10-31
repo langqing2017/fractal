@@ -2,10 +2,10 @@ package state
 
 import (
 	"bytes"
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/dbwrapper"
-	"github.com/fractal-platform/fractal/rlp"
-	"github.com/fractal-platform/fractal/trie"
+	"github.com/langqing2017/fractal/common"
+	"github.com/langqing2017/fractal/dbwrapper"
+	"github.com/langqing2017/fractal/rlp"
+	"github.com/langqing2017/fractal/trie"
 )
 
 // NewStateSync create a new state trie download scheduler.

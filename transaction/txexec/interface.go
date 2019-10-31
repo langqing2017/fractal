@@ -8,9 +8,9 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/fractal-platform/fractal/core/state"
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/langqing2017/fractal/core/state"
+	"github.com/langqing2017/fractal/core/types"
+	"github.com/langqing2017/fractal/utils/log"
 )
 
 var (

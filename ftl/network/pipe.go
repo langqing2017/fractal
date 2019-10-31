@@ -5,8 +5,8 @@
 package network
 
 import (
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/core/types"
+	"github.com/langqing2017/fractal/common"
+	"github.com/langqing2017/fractal/core/types"
 	"sync"
 	"time"
 )

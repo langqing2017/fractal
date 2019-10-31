@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/fractal-platform/fractal/crypto"
+	ethcrypto "github.com/langqing2017/fractal/crypto"
 )
 
 var (

@@ -20,9 +20,9 @@ import (
 	"hash"
 	"sync"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/crypto/sha3"
-	"github.com/fractal-platform/fractal/rlp"
+	"github.com/langqing2017/fractal/common"
+	"github.com/langqing2017/fractal/crypto/sha3"
+	"github.com/langqing2017/fractal/rlp"
 )
 
 type hasher struct {

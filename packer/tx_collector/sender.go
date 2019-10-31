@@ -8,9 +8,9 @@ import (
 	"bytes"
 	"net"
 
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/rlp"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/langqing2017/fractal/core/types"
+	"github.com/langqing2017/fractal/rlp"
+	"github.com/langqing2017/fractal/utils/log"
 )
 
 type TxSender struct {

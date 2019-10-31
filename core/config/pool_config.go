@@ -5,8 +5,8 @@
 package config
 
 import (
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/langqing2017/fractal/common"
+	"github.com/langqing2017/fractal/utils/log"
 	"time"
 )
 

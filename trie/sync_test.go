@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/dbwrapper"
+	"github.com/langqing2017/fractal/common"
+	"github.com/langqing2017/fractal/dbwrapper"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

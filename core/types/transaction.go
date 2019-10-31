@@ -6,10 +6,10 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/common/hexutil"
-	"github.com/fractal-platform/fractal/common/math"
-	"github.com/fractal-platform/fractal/rlp"
+	"github.com/langqing2017/fractal/common"
+	"github.com/langqing2017/fractal/common/hexutil"
+	"github.com/langqing2017/fractal/common/math"
+	"github.com/langqing2017/fractal/rlp"
 )
 
 //go:generate gencodec -type txdata -field-override txdataMarshaling -out gen_tx_json.go

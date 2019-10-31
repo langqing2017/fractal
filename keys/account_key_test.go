@@ -1,7 +1,7 @@
 package keys
 
 import (
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/langqing2017/fractal/utils/log"
 	"os"
 	"testing"
 )

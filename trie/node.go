@@ -21,8 +21,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/rlp"
+	"github.com/langqing2017/fractal/common"
+	"github.com/langqing2017/fractal/rlp"
 )
 
 var indices = []string{"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f", "[17]"}

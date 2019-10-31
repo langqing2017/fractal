@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/fractal-platform/fractal/common/hexutil"
+	"github.com/langqing2017/fractal/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

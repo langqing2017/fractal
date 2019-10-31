@@ -40,7 +40,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/fractal-platform/fractal/crypto"
+	"github.com/langqing2017/fractal/crypto"
 )
 
 var dumpEnc bool

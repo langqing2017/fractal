@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/common/bitutil"
-	"github.com/fractal-platform/fractal/common/hexutil"
-	"github.com/fractal-platform/fractal/rlp"
+	"github.com/langqing2017/fractal/common"
+	"github.com/langqing2017/fractal/common/bitutil"
+	"github.com/langqing2017/fractal/common/hexutil"
+	"github.com/langqing2017/fractal/rlp"
 )
 
 //go:generate gencodec -type Receipt -field-override receiptMarshaling -out gen_receipt_json.go

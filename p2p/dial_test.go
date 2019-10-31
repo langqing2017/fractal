@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fractal-platform/fractal/p2p/discover"
-	"github.com/fractal-platform/fractal/p2p/netutil"
+	"github.com/langqing2017/fractal/p2p/discover"
+	"github.com/langqing2017/fractal/p2p/netutil"
 	"github.com/davecgh/go-spew/spew"
 )
 

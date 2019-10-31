@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/core/dbaccessor"
-	"github.com/fractal-platform/fractal/core/state"
-	"github.com/fractal-platform/fractal/dbwrapper"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/langqing2017/fractal/common"
+	"github.com/langqing2017/fractal/core/dbaccessor"
+	"github.com/langqing2017/fractal/core/state"
+	"github.com/langqing2017/fractal/dbwrapper"
+	"github.com/langqing2017/fractal/utils/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

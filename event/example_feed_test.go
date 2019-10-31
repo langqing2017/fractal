@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/fractal-platform/fractal/event"
+	"github.com/langqing2017/fractal/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

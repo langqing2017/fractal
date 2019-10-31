@@ -22,8 +22,8 @@ import (
 	"io"
 	"net"
 
-	"github.com/fractal-platform/fractal/crypto"
-	"github.com/fractal-platform/fractal/rlp"
+	"github.com/langqing2017/fractal/crypto"
+	"github.com/langqing2017/fractal/rlp"
 )
 
 // Entry is implemented by known node record entry types.

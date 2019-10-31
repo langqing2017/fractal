@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/common/hexutil"
-	"github.com/fractal-platform/fractal/keys"
-	"github.com/fractal-platform/fractal/p2p"
-	"github.com/fractal-platform/fractal/rpc/client"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/langqing2017/fractal/common"
+	"github.com/langqing2017/fractal/common/hexutil"
+	"github.com/langqing2017/fractal/keys"
+	"github.com/langqing2017/fractal/p2p"
+	"github.com/langqing2017/fractal/rpc/client"
+	"github.com/langqing2017/fractal/utils/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -3,7 +3,7 @@ package utils
 
 import (
 	"fmt"
-	"github.com/fractal-platform/fractal/params"
+	"github.com/langqing2017/fractal/params"
 	"gopkg.in/urfave/cli.v1"
 	"io"
 	"os"

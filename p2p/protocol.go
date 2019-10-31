@@ -19,7 +19,7 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/fractal-platform/fractal/p2p/discover"
+	"github.com/langqing2017/fractal/p2p/discover"
 )
 
 // Protocol represents a P2P subprotocol implementation.

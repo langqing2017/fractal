@@ -7,10 +7,10 @@ package api
 import (
 	"context"
 	"fmt"
-	"github.com/fractal-platform/fractal/common/hexutil"
-	"github.com/fractal-platform/fractal/p2p"
-	"github.com/fractal-platform/fractal/rpc"
-	"github.com/fractal-platform/fractal/rpc/server"
+	"github.com/langqing2017/fractal/common/hexutil"
+	"github.com/langqing2017/fractal/p2p"
+	"github.com/langqing2017/fractal/rpc"
+	"github.com/langqing2017/fractal/rpc/server"
 )
 
 // NetAPI offers network related RPC methods

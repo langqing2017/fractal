@@ -18,8 +18,8 @@ package dbwrapper
 
 import (
 	"sync"
-	//"github.com/fractal-platform/fractal/metrics"
-	"github.com/fractal-platform/fractal/utils/log"
+	//"github.com/langqing2017/fractal/metrics"
+	"github.com/langqing2017/fractal/utils/log"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/filter"

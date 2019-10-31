@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/fractal-platform/fractal/event"
+	"github.com/langqing2017/fractal/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

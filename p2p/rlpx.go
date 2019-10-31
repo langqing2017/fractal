@@ -35,12 +35,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fractal-platform/fractal/crypto"
-	"github.com/fractal-platform/fractal/crypto/ecies"
-	"github.com/fractal-platform/fractal/crypto/secp256k1"
-	"github.com/fractal-platform/fractal/crypto/sha3"
-	"github.com/fractal-platform/fractal/p2p/discover"
-	"github.com/fractal-platform/fractal/rlp"
+	"github.com/langqing2017/fractal/crypto"
+	"github.com/langqing2017/fractal/crypto/ecies"
+	"github.com/langqing2017/fractal/crypto/secp256k1"
+	"github.com/langqing2017/fractal/crypto/sha3"
+	"github.com/langqing2017/fractal/p2p/discover"
+	"github.com/langqing2017/fractal/rlp"
 	"github.com/golang/snappy"
 )
 

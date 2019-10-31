@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/fractal-platform/fractal/common/math"
-	"github.com/fractal-platform/fractal/crypto"
-	"github.com/fractal-platform/fractal/crypto/sha3"
-	"github.com/fractal-platform/fractal/rlp"
+	"github.com/langqing2017/fractal/common/math"
+	"github.com/langqing2017/fractal/crypto"
+	"github.com/langqing2017/fractal/crypto/sha3"
+	"github.com/langqing2017/fractal/rlp"
 )
 
 // Registry of known identity schemes.

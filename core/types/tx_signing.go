@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/crypto"
+	"github.com/langqing2017/fractal/common"
+	"github.com/langqing2017/fractal/crypto"
 )
 
 var (

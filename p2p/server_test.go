@@ -18,9 +18,9 @@ package p2p
 
 import (
 	"crypto/ecdsa"
-	"github.com/fractal-platform/fractal/crypto/sha3"
-	"github.com/fractal-platform/fractal/p2p/discover"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/langqing2017/fractal/crypto/sha3"
+	"github.com/langqing2017/fractal/p2p/discover"
+	"github.com/langqing2017/fractal/utils/log"
 	"math/rand"
 	"net"
 	"testing"

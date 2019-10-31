@@ -1,10 +1,10 @@
 package chain
 
 import (
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/core/dbaccessor"
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/params"
+	"github.com/langqing2017/fractal/common"
+	"github.com/langqing2017/fractal/core/dbaccessor"
+	"github.com/langqing2017/fractal/core/types"
+	"github.com/langqing2017/fractal/params"
 	"sync"
 )
 

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/fractal-platform/fractal/cmd/utils"
-	"github.com/fractal-platform/fractal/core/config"
+	"github.com/langqing2017/fractal/cmd/utils"
+	"github.com/langqing2017/fractal/core/config"
 	"gopkg.in/urfave/cli.v1"
 )
 
