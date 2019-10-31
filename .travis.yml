@@ -14,7 +14,7 @@ jobs:
     - name: Build and test on Ubuntu Bionic 18.04
       dist: bionic
       script:
-        - mv transaction/txexec/libwasmlib.so.ubuntu transaction/txexec/libwasmlib.so
+        - cp transaction/txexec/libwasmlib.so.ubuntu transaction/txexec/libwasmlib.so
         - go build ${gobuild_args} ./... && go test ${gobuild_args} ./...
     - name: Code check
       os: osx
@@ -25,3 +25,14 @@ jobs:
           update: true
       script:
         - golangci-lint run -D errcheck,structcheck ./...
+
+deploy:
+  provider: releases
+  api_key: "${travis-ci-apikey}"
+  file: "scripts/install.sh"
+  skip_cleanup: true
+  overwrite: true
+  prerelease: true
+  on:
+    tags: true
+
