@@ -28,7 +28,7 @@ jobs:
 
 deploy:
   provider: releases
-  api_key: "${travis-ci-apikey}"
+  api_key: "${travis_ci_apikey}"
   file: "scripts/install.sh"
   skip_cleanup: true
   overwrite: true
