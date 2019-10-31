@@ -14,6 +14,7 @@ jobs:
         - ENV_OS=osx
       script:
         - go build ${gobuild_args} ./... && go test ${gobuild_args} ./...
+        - bash scripts/ci/package.sh
     - name: Build and test on Ubuntu Bionic 18.04
       dist: bionic
       env:
@@ -22,6 +23,7 @@ jobs:
       script:
         - cp transaction/txexec/libwasmlib.so.ubuntu transaction/txexec/libwasmlib.so
         - go build ${gobuild_args} ./... && go test ${gobuild_args} ./...
+        - bash scripts/ci/package.sh
     - name: Code check
       os: osx
       addons:
