@@ -1,8 +1,8 @@
 #!/bin/bash
 set -ex
 
-go install ./cmd/gtool
-go install ./cmd/gftl
+go install -ldflags "-X main.versionMeta=stable -X main.gitCommit=$(git log --pretty=format:'%h' -1)" ./cmd/gtool
+go install -ldflags "-X main.versionMeta=stable -X main.gitCommit=$(git log --pretty=format:'%h' -1)" ./cmd/gftl
 
 mkdir -p release/fractal-bin
 cp $GOPATH/bin/gftl release/fractal-bin/
