@@ -9,10 +9,16 @@ jobs:
   include:
     - name: Build and test on MacOS
       os: osx
+      env:
+        - PKG_FILE=fractal-bin.${TRAVIS_TAG}.macos.tgz
+        - ENV_OS=osx
       script:
         - go build ${gobuild_args} ./... && go test ${gobuild_args} ./...
     - name: Build and test on Ubuntu Bionic 18.04
       dist: bionic
+      env:
+        - PKG_FILE=fractal-bin.${TRAVIS_TAG}.ubuntu.tgz
+        - ENV_OS=ubuntu
       script:
         - cp transaction/txexec/libwasmlib.so.ubuntu transaction/txexec/libwasmlib.so
         - go build ${gobuild_args} ./... && go test ${gobuild_args} ./...
@@ -29,7 +35,9 @@ jobs:
 deploy:
   provider: releases
   api_key: "${travis_ci_apikey}"
-  file: "scripts/install.sh"
+  file:
+    - "scripts/install.sh"
+    - "release/${PKG_FILE}"
   skip_cleanup: true
   overwrite: true
   prerelease: true
